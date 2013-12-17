@@ -1,0 +1,46 @@
+{
+	"name": "grunt-exit",
+	"description": "Calls process.exit so things exit properly, i.e. code-coverge, even on Windows. Super simple task!",
+	"version": "1.0.0",
+	"homepage": "https://github.com/lukemadera/grunt-exit",
+	"author": {
+		"name": "Luke Madera",
+		"url": "https://github.com/lukemadera"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:lukemadera/grunt-exit.git"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/lukemadera/grunt-exit/LICENSE.md"
+		}
+	],
+	"main": "Gruntfile.js",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"scripts": {
+		"test": "grunt test"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-jshint": "~0.7.0"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.1"
+	},
+	"keywords": [
+		"gruntplugin",
+		"grunt",
+		"plugins",
+		"exit",
+		"process",
+		"process.exit",
+		"grunt-exit",
+		"grunt-process"
+	]
+}
